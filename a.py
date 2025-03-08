@@ -1,4 +1,3 @@
-
 def add_data():
     while True:
         npm = input("Masukkan NPM mahasiswa: ")
@@ -15,6 +14,7 @@ def add_data():
                 break
             elif minat in list_minat:
                 continue
+                print("KONTOL")
             else:
                 list_minat.append(minat)
         data_mahasiswa[npm] = list_minat
@@ -22,7 +22,7 @@ def add_data():
         break
     
 
-
+    
 
 def erase_data():
     while True:
